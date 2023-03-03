@@ -1,0 +1,114 @@
+[
+{
+  "model": "webapp.status",
+  "pk": 1,
+  "fields": {
+    "name": "New"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 2,
+  "fields": {
+    "name": "In progress"
+  }
+},
+{
+  "model": "webapp.status",
+  "pk": 3,
+  "fields": {
+    "name": "Done"
+  }
+},
+{
+  "model": "webapp.issue",
+  "pk": 1,
+  "fields": {
+    "summary": "Домашнее задание",
+    "description": "Пересмотреть урок номер 57 и выполнить домашнее задание до дедлайна",
+    "status": 1,
+    "created_at": "2023-03-03T04:58:22.895Z",
+    "updated_at": "2023-03-03T04:58:22.895Z",
+    "type": [
+      3
+    ]
+  }
+},
+{
+  "model": "webapp.issue",
+  "pk": 2,
+  "fields": {
+    "summary": "Всплывающее окно",
+    "description": "Всплывающее окно не пропадает, пока не измениться дата",
+    "status": 2,
+    "created_at": "2023-03-03T05:01:49.798Z",
+    "updated_at": "2023-03-03T05:01:49.798Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.issue",
+  "pk": 3,
+  "fields": {
+    "summary": "Перевод текста и шрифты",
+    "description": "Не переведены на русский заголовки и описание. Не подобрены правильные шрифты и их размеры",
+    "status": 3,
+    "created_at": "2023-03-03T05:04:38.763Z",
+    "updated_at": "2023-03-03T05:04:38.763Z",
+    "type": [
+      2
+    ]
+  }
+},
+{
+  "model": "webapp.issue",
+  "pk": 4,
+  "fields": {
+    "summary": "Ошибка подключения",
+    "description": "Возникает ошибка подключения на игровой сервер",
+    "status": 1,
+    "created_at": "2023-03-03T05:06:47.154Z",
+    "updated_at": "2023-03-03T05:06:47.154Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.issue",
+  "pk": 5,
+  "fields": {
+    "summary": "Оплата покупок",
+    "description": "Необновляется курс тенге к доллару во время оплаты покупок",
+    "status": 2,
+    "created_at": "2023-03-03T05:09:26.643Z",
+    "updated_at": "2023-03-03T05:09:26.643Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 1,
+  "fields": {
+    "name": "Bug"
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 2,
+  "fields": {
+    "name": "Enhancement"
+  }
+},
+{
+  "model": "webapp.type",
+  "pk": 3,
+  "fields": {
+    "name": "Task"
+  }
+}
+]
